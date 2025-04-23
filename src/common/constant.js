@@ -3,6 +3,7 @@ import Datamining from "../assets/Datamining.png";
 import Swagger from "../assets/Swagger.png";
 import APIanalyzer from "../assets/APIanalyzer.png";
 import APIGEEmanagementtool from "../assets/APIGEEmanagementtool.png";
+import Generatedimage from "../assets/Generatedimage.png";
 
 const cardDetails = [
   {
@@ -38,7 +39,7 @@ const cardDetails = [
     title: "APIGEE Proxy Management Tool",
     description:
       "A powerful AI-driven solution for advanced API management. Effortlessly generate OpenAPI specs from existing proxies, create proxies using YAML or RAML, migrate ZIP-based proxies to APIGEE, and quickly deploy APIs using customizable templates—all from a single intuitive interface.",
-    buttonLink: "https://mocktarget.apigee.net/json",
+    buttonLink: "http://35.225.141.76:8501/",
   },
   {
     id: 5,
@@ -46,15 +47,15 @@ const cardDetails = [
     title: "Unified APIGEE & OpenAPI Analyzer | AI at Core",
     description:
       "An AI-powered tool that simplifies API understanding by summarizing key functionalities, inspecting security policies, and decoding configurations. Designed for both developers and non-tech users, it enables interactive insights, policy analysis, and sample query prompts for faster debugging, optimization, and compliance.",
-    buttonLink: "https://mocktarget.apigee.net/json",
+    buttonLink: "http://35.225.141.76:8502/",
   },
   {
     id: 6,
-    logo: APIanalyzer,
+    logo: Generatedimage,
     title: "MuleSoft To Apigee API Migration Tool",
     description:
       "This utility facilitates the migration of APIs from Mulesoft to Apigee by automating the extraction of API details, proxy generation, policy placement, and deployment. It consists of several scripts and templates organized into a structured workflow. This workflow ensures a seamless migration of APIs from Mulesoft to Apigee, automating most of the manual tasks and reducing errors.",
-    buttonLink: "",
+    buttonLink: "https://imax-web-shell-34-121-152-85.nip.io/guacamole",
   },
   // {
   //   id: 7,
