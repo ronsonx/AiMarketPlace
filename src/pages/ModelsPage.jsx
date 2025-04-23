@@ -41,6 +41,7 @@ const ModelsPage = () => {
 
   return (
     <>
+     {/* Main Conatiner Title */}
       <Box sx={{ display: "flex", justifyContent: "center", mt: 2, mb: 3 }}>
         <Typography
           variant="h4"
@@ -50,7 +51,7 @@ const ModelsPage = () => {
             fontFamily: "Roboto",
             fontSize: "35px",
             fontStyle: "normal",
-            fontWeight: 300,
+            fontWeight: 100,
             lineHeight: "normal",
             textTransform: "uppercase",
           }}
@@ -58,7 +59,7 @@ const ModelsPage = () => {
           AI Solution For Application Development
         </Typography>
       </Box>
-
+      {/* Serach bar */}
       <Box
         display="flex"
         justifyContent="center"
@@ -101,14 +102,14 @@ const ModelsPage = () => {
           Filters
         </Button>
       </Box>
-
+        {/* main container tiles  */}
       <Container sx={{ py: 5 }}>
         <Grid sx={{ display: "flex" }} container spacing={{ xs: 2, md: 3 }}>
           {filteredModels.map((model) => (
             <ModelCard model={model} />
           ))}
         </Grid>
-        <Grid container justifyContent="center" sx={{ mt: 5 }}>
+        <Grid container justifyContent="center" sx={{ mt: 4 ,mb:0 }}>
           <Pagination
             count={totalPages}
             page={page}

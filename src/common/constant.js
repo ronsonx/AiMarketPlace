@@ -1,48 +1,59 @@
+import AIanalytics from "../assets/AIanalytics.png";
+import Datamining from "../assets/Datamining.png";
+import Swagger from "../assets/Swagger.png";
+import APIanalyzer from "../assets/APIanalyzer.png";
+import APIGEEmanagementtool from "../assets/APIGEEmanagementtool.png";
+
 const cardDetails = [
   {
     id: 1,
-    logo: "",
-    title: "LLama3 - 8B",
-    description: "Meta's latest opensource LLama3 8B model",
-    buttonLink: "https://www.color-hex.com/color/81b1ce",
+    logo: AIanalytics,
+    title: "iInsights-Analytics-Agent",
+    description:
+      "Our API analytics agent,A fast and efficient solution for monitoring and analyzing API performance, providing real-time metrics on your APIs. From error rates and latency to traffic patterns and developer activity, agent provides a 360-degree view of your API performance using OpenAI models.",
+    buttonLink:
+      "https://i-insight-chatbot-openai-bq-perf-testing-501747933449.us-central1.run.app",
   },
   {
     id: 2,
-    logo: "",
-    title: "Zephyr-7B",
+    logo: Datamining,
+    title: "iInsights-Data-Mining-Agent",
     description:
-      "Zephyr is a series of language models that are trained to act as helpful assistants.",
-    buttonLink: "",
+      "No more complex queries or manual searches. Our intuitive agent simplifies data mining by seamlessly integrated with database, fetches request schemas and test payloads based on your service requests, saving valuable time and effort, boosts productivity. Just tell it the service you're working with, and it instantly retrieves the request schema and test payload from database.",
+    buttonLink:
+      "https://i-insight-data-mining-chatbot-openai-bq-perf-test-lhk4nlt23a-uc.a.run.app",
   },
   {
     id: 3,
-    logo: "",
-    title: "effi-13b",
+    logo: Swagger,
+    title: "iInsights-Swagger-Agent",
     description:
-      "This model is an instruction finetuned model. It provides reasoning behind the response generated against an instruction specified.",
-    buttonLink: "",
+      "Working with Swagger files has never been easier. Our interactive agent lets you explore your API specifications through natural language conversations. It helps you understand, provides detailed information, and even assistance with enhancing your specs with ready-to-use YAML snippets for seamless integration, all through a simple chat interface.",
+    buttonLink:
+      "https://i-insight-swagger-chatbot-501747933449.us-central1.run.app",
   },
   {
     id: 4,
-    logo: "",
-    title: "Medical Agent",
-    description: "This model helps to answer basic medical queries.",
-    buttonLink: "",
+    logo: APIanalyzer,
+    title: "APIGEE Proxy Management Tool",
+    description:
+      "A powerful AI-driven solution for advanced API management. Effortlessly generate OpenAPI specs from existing proxies, create proxies using YAML or RAML, migrate ZIP-based proxies to APIGEE, and quickly deploy APIs using customizable templates—all from a single intuitive interface.",
+    buttonLink: "https://mocktarget.apigee.net/json",
   },
   {
     id: 5,
-    logo: "",
-    title: "Text to Image Diffusion AI Model",
+    logo: APIGEEmanagementtool,
+    title: "Unified APIGEE & OpenAPI Analyzer | AI at Core",
     description:
-      "Generate high quality images with simple using state of the art AI model",
-    buttonLink: "",
+      "An AI-powered tool that simplifies API understanding by summarizing key functionalities, inspecting security policies, and decoding configurations. Designed for both developers and non-tech users, it enables interactive insights, policy analysis, and sample query prompts for faster debugging, optimization, and compliance.",
+    buttonLink: "https://mocktarget.apigee.net/json",
   },
   {
     id: 6,
-    logo: "",
-    title: "Multilingual-Text-To-Speech",
+    logo: APIanalyzer,
+    title: "MuleSoft To Apigee API Migration Tool",
     description:
-      "Convert text in multiple languages, including English, German, Polish, Spanish, Italian, French, Portuguese, and Hindi to respective audio files",
+      "This utility facilitates the migration of APIs from Mulesoft to Apigee by automating the extraction of API details, proxy generation, policy placement, and deployment. It consists of several scripts and templates organized into a structured workflow. This workflow ensures a seamless migration of APIs from Mulesoft to Apigee, automating most of the manual tasks and reducing errors.",
     buttonLink: "",
   },
   // {
