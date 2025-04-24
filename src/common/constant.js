@@ -35,7 +35,7 @@ const cardDetails = [
   },
   {
     id: 4,
-    logo: APIanalyzer,
+    logo: APIGEEmanagementtool,
     title: "APIGEE Proxy Management Tool",
     description:
       "A powerful AI-driven solution for advanced API management. Effortlessly generate OpenAPI specs from existing proxies, create proxies using YAML or RAML, migrate ZIP-based proxies to APIGEE, and quickly deploy APIs using customizable templates—all from a single intuitive interface.",
@@ -43,7 +43,7 @@ const cardDetails = [
   },
   {
     id: 5,
-    logo: APIGEEmanagementtool,
+    logo: APIanalyzer,
     title: "Unified APIGEE & OpenAPI Analyzer | AI at Core",
     description:
       "An AI-powered tool that simplifies API understanding by summarizing key functionalities, inspecting security policies, and decoding configurations. Designed for both developers and non-tech users, it enables interactive insights, policy analysis, and sample query prompts for faster debugging, optimization, and compliance.",
