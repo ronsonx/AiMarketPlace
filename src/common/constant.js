@@ -4,6 +4,7 @@ import Swagger from "../assets/Swagger.png";
 import APIanalyzer from "../assets/APIanalyzer.png";
 import APIGEEmanagementtool from "../assets/APIGEEmanagementtool.png";
 import Generatedimage from "../assets/Generatedimage.png";
+import MuleSoft from "../assets/mulesoft.jpeg"
 
 const cardDetails = [
   {
@@ -56,6 +57,15 @@ const cardDetails = [
     description:
       "This utility facilitates the migration of APIs from Mulesoft to Apigee by automating the extraction of API details, proxy generation, policy placement, and deployment. It consists of several scripts and templates organized into a structured workflow. This workflow ensures a seamless migration of APIs from Mulesoft to Apigee, automating most of the manual tasks and reducing errors.",
     buttonLink: "https://imax-web-shell-34-121-152-85.nip.io/guacamole",
+  },
+
+  {
+    id :7,
+    logo: MuleSoft,
+    title: "iInsights-MuleSoft",
+    description:
+      "MuleSoft iInsights is an AI-driven utility designed to analyze and extract insights from processed MuleSoft analytics data stored in Datasets. Powered by OpenAI’s language model and integrated with BigQuery, this tool enables natural language querying of API usage data. It offers a seamless, user-friendly interface with logging and schema interpretation, helping teams quickly make data-driven decisions without manual querying.",
+    buttonLink: "https://mule-iinsights-617528104873.us-central1.run.app/",
   },
   // {
   //   id: 7,
