@@ -4,7 +4,8 @@ import Swagger from "../assets/Swagger.png";
 import APIanalyzer from "../assets/APIanalyzer.png";
 import APIGEEmanagementtool from "../assets/APIGEEmanagementtool.png";
 import Generatedimage from "../assets/Generatedimage.png";
-import MuleSoft from "../assets/mulesoft.jpeg"
+import MuleSoft from "../assets/mulesoft.jpeg";
+import MulesoftCodeAnalyzer from "../assets/mulesoftCodeAnalyzer.jpeg"
 
 const cardDetails = [
   {
@@ -60,12 +61,21 @@ const cardDetails = [
   },
 
   {
-    id :7,
+    id: 7,
     logo: MuleSoft,
     title: "iInsights-MuleSoft",
     description:
       "MuleSoft iInsights is an AI-driven utility designed to analyze and extract insights from processed MuleSoft analytics data stored in Datasets. Powered by OpenAI’s language model and integrated with BigQuery, this tool enables natural language querying of API usage data. It offers a seamless, user-friendly interface with logging and schema interpretation, helping teams quickly make data-driven decisions without manual querying.",
     buttonLink: "https://mule-iinsights-617528104873.us-central1.run.app/",
+  },
+
+  {
+    id: 7,
+    logo: MulesoftCodeAnalyzer,
+    title: "AI-Power-MuleSoft-Code-and-RAML-Analyzer",
+    description:
+      "This AI-driven tool simplifies MuleSoft development by individually analyzing RAML files, POM files, and API bundles. It helps developers easily understand RAML design, interpret dependency details from POM files, and gain visibility into flows and low-level logic within the API bundle.",
+    buttonLink: "https://mule-analyzer-617528104873.us-central1.run.app/",
   },
   // {
   //   id: 7,
