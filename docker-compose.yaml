@@ -1,0 +1,12 @@
+version: '3.8' # Using a recent Docker Compose file format version
+
+services:
+  frontend:
+    # Build the image from the Dockerfile in the current directory
+    build:
+      context: . # Look for the Dockerfile in the current directory
+      dockerfile: Dockerfile # Specify the Dockerfile name (optional if named 'Dockerfile')
+    container_name: react_vite_frontend # A friendly name for your container
+    ports:
+      - "80:80" # Map host port 80 to container port 80 (where Nginx listens)
+    restart: unless-stopped # Always restart the container unless it's explicitly stopped
