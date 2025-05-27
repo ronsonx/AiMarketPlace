@@ -15,7 +15,7 @@ const cardDetails = [
     description:
       "Our API analytics agent,A fast and efficient solution for monitoring and analyzing API performance, providing real-time metrics on your APIs. From error rates and latency to traffic patterns and developer activity, agent provides a 360-degree view of your API performance using OpenAI models.",
     buttonLink:
-      "https://i-insight-chatbot-openai-bq-perf-testing-501747933449.us-central1.run.app",
+      "https://i-insight-analytics-agent-441690411280.us-central1.run.app",
   },
   {
     id: 2,
@@ -24,7 +24,7 @@ const cardDetails = [
     description:
       "No more complex queries or manual searches. Our intuitive agent simplifies data mining by seamlessly integrated with database, fetches request schemas and test payloads based on your service requests, saving valuable time and effort, boosts productivity. Just tell it the service you're working with, and it instantly retrieves the request schema and test payload from database.",
     buttonLink:
-      "https://i-insight-data-mining-chatbot-openai-bq-perf-test-lhk4nlt23a-uc.a.run.app",
+      "https://i-insight-data-mining-agent-441690411280.us-central1.run.app",
   },
   {
     id: 3,
@@ -33,7 +33,7 @@ const cardDetails = [
     description:
       "Working with Swagger files has never been easier. Our interactive agent lets you explore your API specifications through natural language conversations. It helps you understand, provides detailed information, and even assistance with enhancing your specs with ready-to-use YAML snippets for seamless integration, all through a simple chat interface.",
     buttonLink:
-      "https://i-insight-swagger-chatbot-501747933449.us-central1.run.app",
+      "https://i-insight-swagger-agent-441690411280.us-central1.run.app",
   },
   {
     id: 4,
@@ -41,7 +41,7 @@ const cardDetails = [
     title: "APIGEE Proxy Management Tool",
     description:
       "A powerful AI-driven solution for advanced API management. Effortlessly generate OpenAPI specs from existing proxies, create proxies using YAML or RAML, migrate ZIP-based proxies to APIGEE, and quickly deploy APIs using customizable templates—all from a single intuitive interface.",
-    buttonLink: "http://35.225.141.76:8501/",
+    buttonLink: "http://34.45.173.207:8501/",
   },
   {
     id: 5,
@@ -49,7 +49,7 @@ const cardDetails = [
     title: "Unified APIGEE & OpenAPI Analyzer | AI at Core",
     description:
       "An AI-powered tool that simplifies API understanding by summarizing key functionalities, inspecting security policies, and decoding configurations. Designed for both developers and non-tech users, it enables interactive insights, policy analysis, and sample query prompts for faster debugging, optimization, and compliance.",
-    buttonLink: "http://35.225.141.76:8502/",
+    buttonLink: "http://34.45.173.207:8502/",
   },
   {
     id: 6,
@@ -57,7 +57,7 @@ const cardDetails = [
     title: "MuleSoft To Apigee API Migration Tool",
     description:
       "This utility facilitates the migration of APIs from Mulesoft to Apigee by automating the extraction of API details, proxy generation, policy placement, and deployment. It consists of several scripts and templates organized into a structured workflow. This workflow ensures a seamless migration of APIs from Mulesoft to Apigee, automating most of the manual tasks and reducing errors.",
-    buttonLink: "https://imax-web-shell-34-121-152-85.nip.io/guacamole",
+    buttonLink: "https://imax-web-shell-34-45-173-207.nip.io/guacamole",
   },
 
   {
